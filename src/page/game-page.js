@@ -7,4 +7,8 @@ export default class GamePage {
     init () {
         console.log('game page')
     }
+
+    restart () {
+        console.log('game page restart');
+    }
 }
