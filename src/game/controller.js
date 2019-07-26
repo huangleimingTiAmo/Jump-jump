@@ -26,3 +26,5 @@ class GameController {
         this.gameView.initGameOverPage(gameOverPagesCallbacks)
     }
 }
+
+export default new GameController()

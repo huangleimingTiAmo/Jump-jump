@@ -1,9 +1,11 @@
 import * as THREE from '../libs/three'
 window.THREE = THREE
-// import 
+import game from './game/game'
 
 class Main {
-
+    constructor () {
+        game.init()
+    }
 }
 
-export default new Main()
+export default Main

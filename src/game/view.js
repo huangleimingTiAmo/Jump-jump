@@ -1,5 +1,5 @@
-import GamePage from '../pages/game-page'
-import GameOverPage from '../pages/game-over-page'
+import GamePage from '../page/game-page'
+import GameOverPage from '../page/game-over-page'
 class GameView {
     constructor () {
         
@@ -20,7 +20,9 @@ class GameView {
 
     initGameOverPage (callbacks) {
         this.gameOverPage = new GameOverPage(callbacks)
-        this.gameOverPage.init()
+        this.gameOverPage.init({
+            scene:this.gamePage.scene
+        })
     }
     
 }
