@@ -5,13 +5,20 @@ class GameView {
         
     }
 
-    showGameOverPage () {
-        this.gameOverPage.show()
-    }
+    // showGameOverPage () {
+    //     this.gamePage.hide()
+    //     this.gameOverPage.show()
+    // }
 
-    restartGame () {
-        this.gamePage.restart()
-    }
+    // showGamePage () {
+    //     this.gameOverPage.hide()
+    //     this.gamePage.restart()
+    //     this.gamePage.show()
+    // }
+
+    // restartGame () {
+    //     this.gamePage.restart()
+    // }
 
     initGamePage (callbacks) {
         this.gamePage = new GamePage(callbacks)
